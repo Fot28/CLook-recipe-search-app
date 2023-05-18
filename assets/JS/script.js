@@ -135,6 +135,7 @@ function displayYouTubeResults(items) {
 	});
 }
 
+// Calculates the margin to bring the buttons near to search form
 function marginCalc() {
 	var width = $(window).width();
 	console.log("width: " + width);
@@ -151,6 +152,7 @@ function marginCalc() {
 }
 
 function addDnoneClass() {
+	// Add d-none classes to buttons when search is clicked while epmty
 	$("#nutritions").addClass("d-none");
 	$("#directions").removeClass("d-flex");
 	$("#recipeVideos").css("display", "none");
@@ -185,6 +187,7 @@ function getInfo() {
 	$("#searchTerm").val("");
 }
 
+// Search when you hit enter
 $("#searchTerm").on("keydown", function (event) {
 	console.log("triggered");
 	if (event.keyCode === 13) {
@@ -195,6 +198,7 @@ $("#searchTerm").on("keydown", function (event) {
 	}
 });
 
+// Search when you click
 $("#searchButton").on("click", function (event) {
 	event.preventDefault();
 
@@ -214,6 +218,7 @@ $(document).ready(function () {
 	$("#videoResult").empty();
 });
 
+// Sound is playing when you click
 $("button").click(function () {
 	$(audio)[0].play();
 });

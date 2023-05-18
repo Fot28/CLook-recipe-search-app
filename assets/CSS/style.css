@@ -44,10 +44,6 @@ h1 {
 }
 
 /* ==================== Ingredients - photo & text ====================  */
-#leftColumn{
-/* margin-bottom: -90%; */
-/* border: 1px solid green; */
-}
 aside {
 	margin-top: 30px;
 }
@@ -76,9 +72,6 @@ article {
 }
 
 /* ======================== Recipe Selection FORM ========================  */
-#main {
-
-}
 form {
 	margin: 30px 0 20px;
 	border: 1px solid lightgray;
@@ -135,7 +128,6 @@ option:focus {
 	color: var(--greekBlue);
 }
 
-
 .btn {
 	outline: solid 1px #fff;
 	outline-offset: -5px;
@@ -160,23 +152,11 @@ option:focus {
 }
 
 /* ========================== Recipe Directions ==========================  */
-#foodinfo{
-
-}
 
 #nutritionsDirections {
-/* border: 1px dashed red; */
-font-size: 10px !important;
+	/* border: 1px dashed red; */
+	font-size: 10px !important;
 }
-
-#directions a {
-
-}
-
-#foodinfo {
-
-}
-
 
 /* =============================== Videos ===============================  */
 
@@ -255,16 +235,16 @@ No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #foodinfo {
-margin-top: 0;
-    }
+	#foodinfo {
+		margin-top: 0;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #foodinfo {
-        margin-top: 0;
-            }
+	#foodinfo {
+		margin-top: 0;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -280,11 +260,6 @@ margin-top: 0;
 		height: 60px;
 		font-size: 20px;
 	}
-
-    #foodinfo {
-
-    }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
