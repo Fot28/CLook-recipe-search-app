@@ -1,6 +1,5 @@
 # CLook Recipe Search App
 
-
 ## Description
 	
 The **CLook Recipe Search App** is a one-stop portal to inspire your meal preparation. Simply enter a food product and select your additional requirements.     
@@ -21,7 +20,6 @@ The app has been optimised for various display sizes with a responsive design.
 The page is live at https://forestdean.github.io/CLook-recipe-search-app/
 
 
-	
 ## Usage
 	   
 This animation illustrates the usage of the **CLook Recipe Search App**:        
@@ -37,9 +35,6 @@ This animation illustrates the usage of the **CLook Recipe Search App**:
 - click to display `Cooking Instructions`
   - you will be redirected to an external page
 - revue the `Alternative Recipe Videos` collated in he lower page
-
-
-
 	
 ## API
 - EDAMAM Recipe Search API - https://developer.edamam.com/edamam-recipe-api       
@@ -47,17 +42,12 @@ This animation illustrates the usage of the **CLook Recipe Search App**:
 - Google Fonts API - https://developers.google.com/fonts          
 
 ## Roadmap
-<mark>If you have ideas for releases in the future, it is a good idea to list them in the README.</mark>     
+- additional buttons to scroll through alternative recipe options.
+- a diet plan feature to log requirements. 
+- upgrade background image. 
 
 ## Credits
 Johnny Africa - background image - https://johnnyafrica.com
-
-
- 
-
-
-
-
 
 ## License
 	
